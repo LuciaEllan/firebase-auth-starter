@@ -1,8 +1,8 @@
 {
-  "name": "firebase-auth-acl-starter",
+  "name": "firebase-auth-starter",
   "version": "0.0.1",
-  "description": "MySQL ACL with Firebase Auth starter kit",
-  "productName": "Auth+ACL Starter",
+  "description": "Firebase Auth starter kit",
+  "productName": "Firebase Auth Starter",
   "cordovaId": "org.cordova.quasar.app",
   "author": "Lucia Ellan <lucia.ellan@gmail.com>",
   "private": true,
