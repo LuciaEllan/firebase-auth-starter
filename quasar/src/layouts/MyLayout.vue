@@ -13,7 +13,7 @@
         </q-btn>
 
         <q-toolbar-title>
-          Quasar App
+          Lucia's Firebase Auth Starter
         </q-toolbar-title>
 
         <AuthControlButton />
@@ -26,50 +26,41 @@
       content-class="bg-grey-2"
     >
       <q-list>
-        <q-item-label header>Essential Links</q-item-label>
-        <q-item clickable tag="a" target="_blank" href="http://v1.quasar-framework.org">
-          <q-item-section avatar>
-            <q-icon name="school" />
-          </q-item-section>
+        <q-item clickable to="/">
           <q-item-section>
-            <q-item-label>Docs</q-item-label>
+            <q-item-label>Index</q-item-label>
+            <q-item-label caption>To index page</q-item-label>
+          </q-item-section>
+        </q-item>
+        <q-item clickable to="/some_protected_page">
+          <q-item-section>
+            <q-item-label>Some protected page</q-item-label>
+            <q-item-label caption>Login required</q-item-label>
+          </q-item-section>
+        </q-item>
+        <q-item />
+        <q-item clickable tag="a" target="_blank" href="https://v1.quasar-framework.org">
+          <q-item-section>
+            <q-item-label>Powered by Quasar</q-item-label>
             <q-item-label caption>v1.quasar-framework.org</q-item-label>
           </q-item-section>
         </q-item>
-        <q-item clickable tag="a" target="_blank" href="https://github.com/quasarframework/">
-          <q-item-section avatar>
-            <q-icon name="code" />
-          </q-item-section>
+        <q-item clickable tag="a" target="_blank" href="https://firebase.google.com/">
           <q-item-section>
-            <q-item-label>Github</q-item-label>
-            <q-item-label caption>github.com/quasarframework</q-item-label>
+            <q-item-label>Powered by Firebase</q-item-label>
+            <q-item-label caption>firebase.google.com</q-item-label>
           </q-item-section>
         </q-item>
-        <q-item clickable to="login">
-          <q-item-section avatar>
-            <q-icon name="face" />
-          </q-item-section>
+        <q-item clickable tag="a" target="_blank" href="https://github.com/LuciaEllan">
           <q-item-section>
-            <q-item-label>Login</q-item-label>
-            <q-item-label caption>test page</q-item-label>
+            <q-item-label>Lucia's Github</q-item-label>
+            <q-item-label caption>github.com/LuciaEllan</q-item-label>
           </q-item-section>
         </q-item>
-        <q-item clickable to="change_password">
-          <q-item-section avatar>
-            <q-icon name="face" />
-          </q-item-section>
+        <q-item clickable tag="a" target="_blank" href="https://www.luciaellan.com/">
           <q-item-section>
-            <q-item-label>Change Password</q-item-label>
-            <q-item-label caption>test page</q-item-label>
-          </q-item-section>
-        </q-item>
-        <q-item clickable to="some_protected_page">
-          <q-item-section avatar>
-            <q-icon name="face" />
-          </q-item-section>
-          <q-item-section>
-            <q-item-label>Some protected page</q-item-label>
-            <q-item-label caption>test page</q-item-label>
+            <q-item-label>Lucia's Hidden Cache</q-item-label>
+            <q-item-label caption>luciaellan.com</q-item-label>
           </q-item-section>
         </q-item>
       </q-list>
