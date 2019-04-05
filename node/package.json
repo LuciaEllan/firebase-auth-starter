@@ -1,0 +1,22 @@
+{
+  "name": "firebase-auth-starter",
+  "version": "0.0.1",
+  "description": "Firebase Auth Starter Kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx nodemon --watch src --exec \"npx babel ./src -d ./dist && node\" ./dist/index.js"
+  },
+  "author": "Lucia Ellan",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.3",
+    "express": "^4.16.4",
+    "firebase-admin": "^7.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "nodemon": "^1.18.10"
+  }
+}
